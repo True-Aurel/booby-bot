@@ -4,6 +4,6 @@
     "dotenv": "^16.0.0"
   },
   "scripts": {
-    "start": "node Index.js"
+    "start": "node index.js"
   }
 }
