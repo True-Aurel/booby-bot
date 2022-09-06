@@ -3,7 +3,7 @@
     "discord.js": "^13.6.0",
     "dotenv": "^16.0.0"
   },
-  "sccripts":{
+  "scripts": {
     "start": "node index.js"
   }
 }
