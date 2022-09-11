@@ -156,7 +156,7 @@ function envoiJournalier() {
       now.getFullYear(),
       now.getMonth(),
       now.getDate() +1,
-      9, 0, 0		//10h
+      4, 0, 0		//6h
       /*now.getHours(),
       now.getMinutes()+1,
       now.getSeconds()*/
@@ -283,7 +283,7 @@ function getLinkAndName() {
 
         //Client.channels.cache.get(leSalonBooby).send("Nom : " + girlName + " ||@everyone||\n" + link);//on envoie le message dans le channel de test (ID)
         //bdd["lesServeurs"].forEach(element => console.log(element["channel"]));
-        bdd["lesServeurs"].forEach(element => Client.channels.cache.get(element["channel"]).send("Nom : " + girlName + " ||@everyone||\n" + link));//on envoie le message dans le channel de test (ID));
+        bdd["lesServeurs"].forEach(element => Client.channels.cache.get(element["channel"]).send("Nom : " + girlName + " ||@here||\n" + link));//on envoie le message dans le channel de test (ID));
 
         //fin code à moi
     })('https://boobyday.com/');
